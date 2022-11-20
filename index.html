@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylesheet</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <nav id="menu">
+        <a class="link" href="./index.html"id="selectors">Selectors</a>
+        <a class="link" href="./Color.html">Color</a>
+        <a class="link" href="./fonts.html">Font</a>
+        <a class="link" href="#">Bottom</a>
+        <a id="insta" href="https://www.instagram.com/gullveigmet/?igshid=YMyMTA2M2Y%3D"><img src="./Resources/Photo/images.png" width="20px" height="20px"></a>
+    </nav>
+    <div id="header">
+        <h1>CSS selectors</h1>
+        <h2>list</h2>
+    </div>
+<table id="table">
+    <thead>
+        <tr>
+            <th>Selector</th>
+            <th>Name</th>
+            <th>Funktion</th>
+            <th>Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="bold">.*</td>
+            <td>Universal</td>
+            <td>selects all elemments on the page</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="bold">Element name</td>
+            <td>Type selector</td>
+            <td>Selects all ellements of the same type</td>
+            <td>h1 - will select all elemnt with this tag</td>
+        </tr>
+        <tr>
+            <td class="bold">.class-name</td>
+            <td>Class selector</td>
+            <td>Matches all elements that have the same class</td>
+            <td>.index - will match all element with this class</td>
+        </tr>
+        <tr>
+            <td class="bold">#idname</td>
+            <td>ID selector</td>
+            <td>Can only have one value(the could only be one same ID)</td>
+            <td>#toc - will match the element with ID="toc</td>
+        </tr>
+        <tr>
+            <td class="bold">[attr]</td>
+            <td>Attribute selector</td>
+            <td>Matches elements the have a specific attribute</td>
+            <td>[autoplay] - will select all elements with this attribute</td>
+        </tr>
+        <tr>
+            <td colspan="4">Grouping selectors</td>
+        </tr>
+        <tr>
+            <td class="bold">A,B,C</td>
+            <td>Selector list</td>
+            <td>will match all elements that are mentioned</td>
+            <td>div, span - will match both</td>
+        </tr>
+        <tr>
+            <td colspan="4">Combinators</td>
+        </tr>
+        <tr>
+            <td class="bold">A(space)B= A B</td>
+            <td>Descendant combinator</td>
+            <td>will match elements that are inside the other elemnt</td>
+            <td>div span - will match all span that are inside div</td>
+        </tr>
+        <tr>
+            <td class="bold">A>B</td>
+            <td>Child combinator</td>
+            <td>match child elements that are inside their parent element </td>
+            <td>ul>li - will match all li inside ul</td>
+        </tr>
+        <tr>
+            <td class="bold">A+B</td>
+            <td>Adjacent sibling</td>
+            <td>match the first element that follows</td>
+            <td>h2+p - will match the first p the follows h2</td>
+        </tr>
+        <tr>
+            <td class="bold">a:visited</td>
+            <td>Pseudo classes</td>
+            <td>gives acharacteristic for a certain action</td>
+            <td>a:visited - will match all a that have been visited</td>
+        </tr>
+        <tr>
+            <td class="bold">p::first-line</td>
+            <td>Pseudo elemnts</td>
+            <td>matches a certaine part of the elemnt(line, letter)</td>
+            <td>p::first-line - will match the first line of all p</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

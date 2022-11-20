@@ -1,0 +1,114 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Helvetica, Sarif;
+    background-color: rgb(249, 249, 249);;
+}
+
+#menu {
+    background-color: rgb(3, 172, 172);
+    position: fixed;
+    top:0;
+        z-index: 1;
+        left:0;
+        top:0;
+        margin-bottom: 20px;  
+    }
+    
+    nav {
+        display:inline-block;
+        width:100%;
+        height: 50px;
+        text-align: center;
+        word-spacing: 50px;
+        padding-top: 10px; 
+    }
+    
+    .link {
+        color:#F0FFFF;
+        font-family: Helvetica;
+        font-size: 26px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #color {
+        font-weight: 600;
+        font-size:30px;
+        border: 1px solid darkcyan;
+        padding: 10px;
+        box-shadow: 3px 4px darkslategray;
+    }
+
+    .link:hover {
+        font-size: 27px;
+        color: rgba(0, 0, 0, 0.451);
+        text-decoration: underline;
+    }
+    #insta{
+        position:absolute;
+        right: 20px;
+        top:20px;
+    }
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    position: relative;
+    letter-spacing: 5px;
+    top: 35px;
+    padding: 25px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+ 
+h2 {
+    text-align: center;
+    letter-spacing: 3px;
+}
+.container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 98%;
+    padding: 20px 20px;
+    margin-right: 5px;
+    position: relative;
+    right: 6px;
+}
+
+.color-block {
+ display: inline-block;
+ width: 32%;
+ border: 0px solid black;
+ padding-left: 10px;
+ text-align: center;
+ height: 100px;
+ margin: 10px 0;
+
+}
+ .cyan{
+    background-color: #008B8B;
+    color:#FFFFFF;
+ }
+
+ .turquoise {
+    background-color: #00CED1;
+ }
+
+ .ivory {
+   background-color: #FFFFF0;
+ }
+
+ .navy {
+    background-color: #000080;
+    color: white;
+ }
+
+ .maroon {
+    background-color: #800000;
+    color: white;
+ }
+
+ .ghostwhite {
+    background-color: #F8F8FF;
+ }
